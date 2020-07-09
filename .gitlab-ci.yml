@@ -1,0 +1,199 @@
+image: node:latest
+
+cache:
+   paths:
+       - node_modules/
+
+Test:
+    script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test
+    only:
+        refs:
+            - master
+Test01:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test01
+  only:
+    refs:
+      - 1-task01-program-for-number-system
+
+Practice01:
+  script:
+      - node practice01.js
+  only:
+    refs:
+      - 1-task01-program-for-number-system
+
+Test02:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test02
+  only:
+    refs:
+      - 2-task02-program-for-job-assurance
+
+Practice02:
+  script:
+      - node practice02.js
+  only:
+    refs:
+      - 2-task02-program-for-job-assurance
+
+Test03:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test03
+  only:
+    refs:
+      - 3-task03-program-for-shape-class
+
+Practice03:
+  script:
+      - node practice03.js
+  only:
+    refs:
+      - 3-task03-program-for-shape-class
+
+Test04:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test04
+  only:
+    refs:
+      - 4-task04-program-for-square-class
+
+Practice04:
+  script:
+      - node practice04.js
+  only:
+    refs:
+      - 4-task04-program-for-square-class
+
+Test05:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test05
+  only:
+    refs:
+      - 5-task05-program-for-person-class
+
+Practice05:
+  script:
+      - node practice05.js
+  only:
+    refs:
+      - 5-task05-program-for-person-class
+
+      
+Test06:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test06
+  only:
+    refs:
+      - 6-task06-program-for-teacher-and-student-class
+
+Practice06:
+  script:
+      - node practice06.js
+  only:
+    refs:
+      - 6-task06-program-for-teacher-and-student-class
+
+      
+Test07:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test07
+  only:
+    refs:
+      - 7-task07-program-for-map-function
+
+Practice07:
+  script:
+      - node practice07.js
+  only:
+    refs:
+      - 7-task07-program-for-map-function
+
+      
+Test08:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test08
+  only:
+    refs:
+      - 8-task08-program-to-create-map_sort-function
+
+Practice08:
+  script:
+      - node practice08.js
+  only:
+    refs:
+      - 8-task08-program-to-create-map_sort-function
+
+      
+Test09:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test09
+  only:
+    refs:
+      - 9-task09-program-to-create-map_armstrong-funciton
+
+Practice09:
+  script:
+      - node practice09.js
+  only:
+    refs:
+      - 9-task09-program-to-create-map_armstrong-funciton
+
+Test10:
+  script:
+        - git config --global user.email "jindal.swapnil2@gmail.com"
+        - git config --global user.name "Swapnil"
+        - git subtree add --prefix .specs/ https://workspace.konfinity.com/swapnil/es6-specs.git master
+        - npm install
+        - npm run test10
+  only:
+    refs:
+      - 10-task10-program-for-map
+
+Practice10:
+  script:
+      - node practice10.js
+  only:
+    refs:
+      - 10-task10-program-for-map

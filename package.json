@@ -1,0 +1,24 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task01.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha .specs/*.spec.js",
+    "test01": "mocha './.specs/task01.spec.js'",
+    "test02": "mocha './.specs/task02.spec.js'",
+    "test03": "mocha './.specs/task03.spec.js'",
+    "test04": "mocha './.specs/task04.spec.js'",
+    "test05": "mocha './.specs/task05.spec.js'",
+    "test06": "mocha './.specs/task06.spec.js'",
+    "test07": "mocha './.specs/task07.spec.js'",
+    "test08": "mocha './.specs/task08.spec.js'",
+    "test09": "mocha './.specs/task09.spec.js'",
+    "test10": "mocha './.specs/task10.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
