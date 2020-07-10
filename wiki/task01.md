@@ -6,13 +6,13 @@ Create an object named **numberSystem** with three members.
   * ```js
     numberData: {
         primeNumbers: // put a number here,
-        fibonnaci: // put a number here
+        fibonacci: // put a number here
     }
     ```
   * sum_prime_number
   * fibonacci_Nth_term
-* **sum_prime_number** function will calculate sum of all prime numbers before the above mentioned **primeNumbers** inside **numberData** member
-* **fibonacci_Nth_term** function will calculated the **Nth** term of a fibonacci series, where **N** is the **fibonnaci** number inside **numberData** member
+* **sum_prime_number** function will calculate and return sum of all prime numbers before the above mentioned **primeNumbers** inside **numberData** member
+* **fibonacci_Nth_term** function will calculated and return the **Nth** term of a fibonacci series, where **N** is the **fibonacci** number inside **numberData** member
 * *Caution*: For accessing members use `this` keyword.
 
 Steps:
