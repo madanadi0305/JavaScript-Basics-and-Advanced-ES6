@@ -1,6 +1,6 @@
 # ES6
 ## Task09
-### Write a js program to create map_armstrong funciton.
+### Write a js program to create map_armstrong function.
 
 * Create a function with two parameters **pre_map** and **arr**. Where **pre_map** will be an in-built map provided to you through our test cases and **arr** will be an array of numbers. For each element from the given array, your function should check whether that element exists in your given **pre_map** as one of its **key** or not.
   * eg: 
