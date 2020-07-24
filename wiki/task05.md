@@ -10,8 +10,10 @@
   * Gender: Either "M" (for male) or "F" (for female)
   * Interests: A simple string containing interests in any format may be single word or multiple word.
   * Bio: This has to be done by you accordingly (There is a fullstop `.` sign at the end of the sentence).
+    * This is a function.
     * Here **Name** will be combined form of first name and last name with a space between them
   * Greeting: This also has to be done by you accordingly (There is a fullstop `.` sign at the end of the sentence).
+    * This is a function.
     * Here **Name** will be combined form of first name and last name with a space between the
   * At last export this class.
 * *`Caution`*: Don't make any field **private**
