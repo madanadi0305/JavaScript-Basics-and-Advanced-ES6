@@ -1,7 +1,7 @@
 # ES6
 ## Task06
 ### Write a js program for Teacher and Student class
-* Create a class with name **Person**  with following features in a new file named `person.js` (if the file does not exist then create one for yourself):
+* Copy the previously made class having name **Person**  with following features in a new file named `person.js` (if the file does not exist then create one for yourself):
   * ![Person](https://media.prod.mdn.mozit.cloud/attachments/2016/09/16/13889/379b78629e89434f1a067bb7e50abe00/person-diagram.png)
   * Name: Array containing two elements as the first name and the last name. 
     * eg: ["Ritwick", "Desai"]
