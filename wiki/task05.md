@@ -3,7 +3,9 @@
 ### Write a js program for Person class
 * Create a **Person** class with following features in a new file named `person.js` (if the file does not exist then create one for yourself):
   * ![Person](https://media.prod.mdn.mozit.cloud/attachments/2016/09/16/13889/379b78629e89434f1a067bb7e50abe00/person-diagram.png)
-  * Name: Array containing first name and last name. 
+  * Name: Array containing first name and last name.
+    * Input: ["firstName", "lastName"]
+    * Keep the **Name** same as input array having two elements.
   * Age: Age is just a number.
   * Gender: Either "M" (for male) or "F" (for female)
   * Interests: A simple string containing interests in any format may be single word or multiple word.
