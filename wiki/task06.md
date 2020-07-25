@@ -24,6 +24,7 @@
     * eg: "Science"
   * Greeting (teacher): This you have to do on your own as mentioned in the above image.
     * Prefix: It will be "Mr." if the teacher is male or otherwise "Mrs." Make sure to put a space after the prefix.
+    * `Note`: There is a **`,`** after the first word *`Hello`*.
     * eg: "Mr. Desai"
   * Greeting (student): This also you have to do on your own as mentioned in the above image.
 
