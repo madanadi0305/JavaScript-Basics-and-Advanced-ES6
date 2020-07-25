@@ -16,7 +16,7 @@
     * This is a function.
     * Here **Name** will be combined form of first name and last name with a space between the
 * **`Note`**: Don't miss that, `Name`, `Age`, `Gender`, `Interests` are the class fields initiating inside constructor. While `Bio` and `Greeting` are the functions need to be define outside the constructor.
-  * At last export this class.
-* *`Caution`*: Don't make any field **private**
+* At last export this class.
+  * *`Caution`*: Don't make any field **private**
 * Now, import this above exported class inside your task file `task05.js` and create an instance from this by giving suitable input data to it.
 * Export your created instance using `module.exports`.
