@@ -24,7 +24,7 @@ module.exports = method1;
 
 ```js
 var msg = require('./Log.js'); 
-greetings('Hello World');
+msg('Hello World');
 // Output
 // Hello World
 ```
