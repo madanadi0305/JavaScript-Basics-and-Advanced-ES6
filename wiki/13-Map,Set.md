@@ -25,7 +25,7 @@ Using objects as keys is one of the most notable and important Map features.
 
 ### Properties(methods) of Map :
 
-- **Map.Size**: It returns the number of elements or the key-value pairs in the map.
+- **Map.size**: It returns the number of elements or the key-value pairs in the map.
   ```js
   map1.size;
   ```
