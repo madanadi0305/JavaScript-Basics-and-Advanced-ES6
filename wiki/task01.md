@@ -3,7 +3,7 @@
 ### Write a js program for number system
 Create an object named **numberSystem** with three members.
 * Members: 
-  * The first member is an object having 2 properties with **primeNumbers** and **fibonacci** as keys and a number (positive integer) as value as shown below (you can put any number of your choice):
+  * The first member is an object having 2 properties with **primeNumbers** and **fibonacci** as keys and a number (positive integer) as value as shown below (you can put any +ve number of your choice):
 
     ```js
     numberData: {
