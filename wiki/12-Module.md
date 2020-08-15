@@ -30,6 +30,8 @@ msg('Hello World');
 ```
 You can also use **`import`** keyword in place of `require()` and do the same task as shown below.
 
+**`Note:`** You don't have to use it rightfor now. As it will be explained to you further in detail.
+
 ```js
 import greetings from "./Log.js"; 
 greetings('Hello World');
