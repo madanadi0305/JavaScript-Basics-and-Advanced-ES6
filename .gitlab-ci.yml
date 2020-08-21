@@ -5,6 +5,8 @@ cache:
     - node_modules/
 
 Test:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -16,6 +18,8 @@ Test:
     refs:
       - master
 Test01:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -28,6 +32,8 @@ Test01:
       - 1-task01-program-for-number-system
 
 Practice01:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice01.js
@@ -36,6 +42,8 @@ Practice01:
       - 1-task01-program-for-number-system
 
 Test02:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -48,6 +56,8 @@ Test02:
       - 2-task02-program-for-job-assurance
 
 Practice02:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice02.js
@@ -56,6 +66,8 @@ Practice02:
       - 2-task02-program-for-job-assurance
 
 Test03:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -68,6 +80,8 @@ Test03:
       - 3-task03-program-for-shape-class
 
 Practice03:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice03.js
@@ -76,6 +90,8 @@ Practice03:
       - 3-task03-program-for-shape-class
 
 Test04:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -88,6 +104,8 @@ Test04:
       - 4-task04-program-for-square-class
 
 Practice04:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice04.js
@@ -96,6 +114,8 @@ Practice04:
       - 4-task04-program-for-square-class
 
 Test05:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -108,6 +128,8 @@ Test05:
       - 5-task05-program-for-person-class
 
 Practice05:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice05.js
@@ -116,6 +138,8 @@ Practice05:
       - 5-task05-program-for-person-class
 
 Test06:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -128,6 +152,8 @@ Test06:
       - 6-task06-program-for-teacher-and-student-class
 
 Practice06:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice06.js
@@ -136,6 +162,8 @@ Practice06:
       - 6-task06-program-for-teacher-and-student-class
 
 Test07:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -148,6 +176,8 @@ Test07:
       - 7-task07-program-for-map-function
 
 Practice07:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice07.js
@@ -156,6 +186,8 @@ Practice07:
       - 7-task07-program-for-map-function
 
 Test08:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -168,6 +200,8 @@ Test08:
       - 8-task08-program-to-create-map_sort-function
 
 Practice08:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice08.js
@@ -176,6 +210,8 @@ Practice08:
       - 8-task08-program-to-create-map_sort-function
 
 Test09:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -188,6 +224,8 @@ Test09:
       - 9-task09-program-to-create-map_armstrong-funciton
 
 Practice09:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice09.js
@@ -196,6 +234,8 @@ Practice09:
       - 9-task09-program-to-create-map_armstrong-funciton
 
 Test10:
+  tags:
+    - es6
   timeout: 3 minutes 30 seconds
   script:
     - git config --global user.email "jindal.swapnil2@gmail.com"
@@ -208,6 +248,8 @@ Test10:
       - 10-task10-program-for-map
 
 Practice10:
+  tags:
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice10.js
