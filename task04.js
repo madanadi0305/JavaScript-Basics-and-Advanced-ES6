@@ -15,7 +15,7 @@ calcPerimeter(){
 }
 
 class Square extends Shape{
-    super();
+    super(name,sides,sideLength);
     name;
     sides;
     sideLength;
