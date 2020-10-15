@@ -8,16 +8,19 @@ let addThings = function(a, b, c){
  return this.things + a + b + c;
 };
 ```
-In the above code, we have an object `obj` and a function `addThings` which are NOT related to each other. But as we write the following line of code, `this.things` in the function `foo()` gets its binding.
+In the above code, we have an object `obj` and a function `addThings` which are NOT related to each other.
+ But as we write the following line of code, `this.things` in the function `foo()` gets its binding.
 
 ```js
 console.log( addThings.call(obj, 1,4,6) );      
 // Output  
 //14
 ```
-This is because the first parameter in `.call()` is the context in which `this` must bind trough which `this.things=3` and thus `return this.things+a+b+c` gives `3+1+4+6 = 14`.
+This is because the first parameter in `.call()` is the context in which `this` must bind trough which `this.things=3`
+ and thus `return this.things+a+b+c` gives `3+1+4+6 = 14`.
 
-The `call()` method does not make a **copy** of the function it is being called on, it's just calls the function and binds the context with `this`.
+The `call()` method does not make a **copy** of the function it is being called on, it's just calls the function
+ and binds the context with `this`.
 
 ### apply()
 

@@ -5,7 +5,9 @@ Let’s go back to the school days when we learned about pronouns.
 ```
 Phelps is swimming fast because he wants to win the race.
 ```
-Note the use of the pronoun “he”. We don’t directly address Phelps here but use the pronoun he to refer to Phelps. Similarly, JavaScript uses the `this` keyword as a reference to the object in context i.e the subject.
+Note the use of the pronoun “he”. 
+We don’t directly address Phelps here but use the pronoun he to refer to Phelps. 
+Similarly, JavaScript uses the `this` keyword as a reference to the object in context i.e the subject.
 
 Example:
 
@@ -30,7 +32,9 @@ In the above code, we have an object car that has the properties make, model and
 * Using dot(.) notation, we can also access the properties of objects, `car.make` & `car.model`.
 
 Hence, both the syntax results in the same result in the console.
-To understand `this` binding, we have to understand the **call-site**: the _location_ in code where a function is **called** (not where it's declared). This is because, how `this` binds depends upon the context or the call-site.
+To understand `this` binding, we have to understand the **call-site**: the _location_ in code where a 
+function is **called** (not where it's declared). This is because, how `this` binds depends upon the context or the
+ call-site.
 To illustrate what is call-site, look at the following code:
 
 ```js

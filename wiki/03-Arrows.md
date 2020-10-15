@@ -1,6 +1,7 @@
 # Arrows
 
-Arrow functions (also called “fat arrow functions”) are undoubtedly one of the more popular features of ES6. They introduced a new way of writing functions.
+Arrow functions (also called “fat arrow functions”) 
+are undoubtedly one of the more popular features of ES6. They introduced a new way of writing functions.
 
 Here is a function written in ES5 syntax:
 
@@ -101,7 +102,8 @@ var car = {
 car.fullName(); // Lamborghini Huracán
 ```
 
-`car` is the object calling `fullname`. Thus `car` is the `fullname` context. So the value of `this` in fullname is bound to `car`(make:'Lamborghini' and model:'Huracan').
+`car` is the object calling `fullname`. Thus `car` is the `fullname` context. So the value of `this` in fullname
+ is bound to `car`(make:'Lamborghini' and model:'Huracan').
 While working with the callback function, the traditional function creates unexpected issues. For example:
 
 ```js
@@ -119,7 +121,8 @@ var car = {
 }
 ```
 
-The **setTimeout** is a function that returns undefined as the context of setTimout function is the *window* object in the browser. Since there is no definition of `make` and `model` in the scope of the window object, the value of these 2 is taken to be undefined.
+The **setTimeout** is a function that returns undefined as the context of setTimout function is the *window* object
+ in the browser. Since there is no definition of `make` and `model` in the scope of the window object, the value of these 2 is taken to be undefined.
 Arrow functions don't bind the values of their variables with the context. Hence, if the same setTimeout function is called using the arrow function, it takes the value of `this` from its lexical scope. In the following example, the lexical scope of setTimeout is the function of `fullName`.
 For example:
 
