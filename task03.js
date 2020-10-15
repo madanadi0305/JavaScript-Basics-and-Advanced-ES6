@@ -1,5 +1,5 @@
 function task03(){
-const Shape=class{
+class Shape{
 name;
 sides;
 sideLength;
@@ -13,7 +13,7 @@ calcPerimeter(){
 }
 
 
-};
+}
 var Square=new Shape('Square',4,5);
 var Triangle=new Shape('Triangle',3,3);
 var squareperim=Square.calcPerimeter();
@@ -26,4 +26,4 @@ Square:Square,
 Triangle:Triangle,
 SquarePerimeter: squareperim,
 TrianglePerimeter: triperim
-}
+};
