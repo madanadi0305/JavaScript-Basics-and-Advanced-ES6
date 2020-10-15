@@ -24,6 +24,6 @@ module.exports={
 class:Shape,
 Square:Square,
 Triangle:Triangle,
-SquarePerim:squareperim,
-TrianglePerim:triperim
+SquarePerimeter: squareperim,
+TrianglePerimeter: triperim
 }
