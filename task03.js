@@ -14,14 +14,14 @@ calcPerimeter(){
 
 }
 
-function task03(){
+
 
 var Square=new Shape('Square',4,5);
 var Triangle=new Shape('Triangle',3,3);
 var squareperim=Square.calcPerimeter();
 var triperim=Triangle.calcPerimeter();
 
-}
+
 module.exports={
 class:Shape,
 Square:Square,
