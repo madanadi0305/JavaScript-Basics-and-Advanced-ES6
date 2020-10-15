@@ -2,11 +2,15 @@
 
 The classes in JavaScript support single inheritance using the **`extends`** keyword.
 
-In the expression `class Child extends Parent { }` the `Child` class inherits from Parent the constructor, fields, and methods.
+In the expression `class Child extends Parent { }` the `Child` class inherits from Parent the constructor, 
+fields, and methods.
 
-If you’d like to call the parent constructor in a child class, you need to use the super() special function available in the child constructor. 
+If you’d like to call the parent constructor in a child class, you need to use the super() special function available
+ in the child constructor. 
 
-For example, let’s create a new child class `ContentWriter` that extends the parent class `User` and make `ContentWriter` constructor call the parent constructor of `User`, as well as initialize the posts field
+For example, let’s create a new child class `ContentWriter` 
+that extends the parent class `User` and make `ContentWriter` constructor
+ call the parent constructor of `User`, as well as initialize the posts field
 
 ```js
 class User {
@@ -40,13 +44,15 @@ John Smith
 ["Why I like JS"]
 ```
 
-`ContentWriter` inherits the constructor, the method `getName()` and the field `name` from `User` class. As well, the `ContentWriter` class declares a new field `posts`.
+`ContentWriter` inherits the constructor, the method `getName()` and the field `name` from `User` class.
+ As well, the `ContentWriter` class declares a new field `posts`.
 
 **`Note that private members of a parent class are not inherited by the child class.`** 
 
 `super(name)` inside the child class `ContentWriter` executes the constructor of the parent class `User`.
 
-**Note that inside the child constructor you must execute `super()` before using `this` keyword. Calling `super()` makes sure that the parent constructor initializes the instance.**
+**Note that inside the child constructor you must execute `super()` before using `this` keyword.
+ Calling `super()` makes sure that the parent constructor initializes the instance.**
 
 ```js
 class Child extends Parent {

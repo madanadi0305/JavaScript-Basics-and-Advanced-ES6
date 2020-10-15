@@ -1,7 +1,13 @@
 # ES6
 ## Task04
 ### Write a js program for Square class
-First of all, copy the code of **Shape** class you created earlier in the last task and paste it in your current task file *`task04.js`*. Now we'd like you to create a **Square** class that inherits from **Shape** class and adds a new `calcArea()` method that calculates and return the square's area. Also set up the constructor so that the **name** property of **Square** object instances is automatically set to `square`, and the **sides** property is automatically set to `4`. When invoking the constructor, you should therefore just need to provide the **sideLength** property.
+First of all, copy the code of **Shape** class you created earlier in the last task and paste it 
+in your current task file *`task04.js`*. 
+Now we'd like you to create a **Square** class that inherits from **Shape** class and adds a new `calcArea()`
+ method that calculates and return the square's area. 
+ Also set up the constructor so that the **name** property of **Square** object instances is automatically set to `square`, 
+ and the **sides** property is automatically set to `4`. 
+ When invoking the constructor, you should therefore just need to provide the **sideLength** property.
 ```js
 calcArea(){
   // make every function according to this structure
