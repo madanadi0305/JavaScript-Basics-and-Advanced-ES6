@@ -1,8 +1,7 @@
-function task03(){
 class Shape{
-//name;
-//sides;
-//sideLength;
+name;
+sides;
+sideLength;
 constructor(name,sides,sideLength){
     this.name=name;
     this.sides=sides;
@@ -14,6 +13,9 @@ calcPerimeter(){
 
 
 }
+
+function task03(){
+
 var Square=new Shape('Square',4,5);
 var Triangle=new Shape('Triangle',3,3);
 var squareperim=Square.calcPerimeter();
