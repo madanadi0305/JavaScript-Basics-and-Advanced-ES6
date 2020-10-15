@@ -1,8 +1,8 @@
 function task03(){
 class Shape{
-name;
-sides;
-sideLength;
+//name;
+//sides;
+//sideLength;
 constructor(name,sides,sideLength){
     this.name=name;
     this.sides=sides;
