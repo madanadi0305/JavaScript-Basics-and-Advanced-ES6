@@ -1,6 +1,7 @@
 ## Initialization: ***constructor()***
 
-`constructor(param1, param2, ...)` is a special method in the body of a class that initializes the instance, it is called automatically when a class is initiated and it has to have the exact name **`constructor`**,
+`constructor(param1, param2, ...)` is a special method in the body of a class that initializes the instance, 
+it is called automatically when a class is initiated and it has to have the exact name **`constructor`**,
 
 In the following example the constructor sets the initial value of the field `name`:
 

@@ -51,14 +51,19 @@ Jon Snow
 ```
 **name;** inside the body of the class declares a public field **name**.
 
-There’s no restriction on access or update of the public fields. You can read and assign values to public fields inside the constructor, methods, and outside of the class. 
+There’s no restriction on access or update of the public fields. 
+You can read and assign values to public fields inside the constructor, methods, and outside of the class. 
 
 ### Private instance fields
 
-Encapsulation is an important concept that lets you hide the internal details of a class.A good way to hide internal data of an object is to use the private fields. These are the fields that can be read and change only within the class they belong to. The outside world of the class cannot change private fields directly.
+Encapsulation is an important concept that lets you hide the internal details of a class.
+A good way to hide internal data of an object is to use the private fields. 
+These are the fields that can be read and change only within the class they belong to.
+ The outside world of the class cannot change private fields directly.
 > **The private fields are accessible only within the body of the class**.
 
-Prefix the field name with the special symbol # to make it private, e.g. #myField. The prefix # must be kept every time you work with the field: declare it, read it, or modify it.
+Prefix the field name with the special symbol # to make it private, e.g. #myField. 
+The prefix # must be kept every time you work with the field: declare it, read it, or modify it.
 
 Let’s make sure that the field #name can be set once at the instance initialization:
 ```js
@@ -71,6 +76,7 @@ class User {
   getName() {
     return this.#name;
   }
+
 }
 
 const user = new User('Jon Snow');
@@ -82,7 +88,8 @@ console.log(user.#name);
 Jon Snow
 SyntaxError is thrown
 ```
-#name is a private field. You can access and modify #name within the body of the User. The method getName() can access the private field #name.
+#name is a private field. You can access and modify #name within the body of the User. 
+The method getName() can access the private field #name.
 
 But if you try to access the private field #name outside of User class body, a syntax error is thrown: **SyntaxError:** `Private field '#name' must be declared in an enclosing class`.
 
@@ -116,7 +123,9 @@ console.log(User.TYPE_ADMIN);
 admin
 admin
 ```
-`static TYPE_ADMIN` and `static TYPE_REGULAR` define static variables inside the `User` class. To access the static fields, you have to use the class followed by the field name: `User.TYPE_ADMIN` and `User.TYPE_REGULAR`.
+`static TYPE_ADMIN` and `static TYPE_REGULAR` define static variables inside the `User` class. 
+To access the static fields, you have to use the class followed by the field name:
+ `User.TYPE_ADMIN` and `User.TYPE_REGULAR`.
 
 ### Private static fields
 
@@ -153,6 +162,10 @@ Jon Snow
 Arya Stark
 Error: Unable to create User instance
 ```
-The static field `User.#MAX_INSTANCES` sets the maximum number of allowed instances, while `User.#instances` static field counts the actual number of instances. 
+The static field `User.#MAX_INSTANCES`
+ sets the maximum number of allowed instances, while `User.#instances` 
+ static field counts the actual number of instances. 
 
-These private static fields are accessible only within the `User` class. Nothing from the external world can interfere with the limits mechanism: that’s the benefit of encapsulation. 
+These private static fields are accessible only within the `User` class.
+ Nothing from the external world can interfere with the limits mechanism: that’s the benefit of encapsulation. 
+ 

@@ -1,5 +1,6 @@
 ## What is a class?
-From a dictionary: a class is “a set or category of things having some property or attribute in common and differentiated from others by kind, type, or quality.”
+From a dictionary: a class is “a set or category of things having some property
+ or attribute in common and differentiated from others by kind, type, or quality.”
 
 In JavaScript, a class is a type of **`function`**, but instead of using the keyword **`function`** to initiate it, we use the keyword **`class`**, we use the keyword class, and the properties are assigned inside a constructor() method. You will learn about constructor method in the next wiki. 
 
@@ -13,7 +14,8 @@ class User {
   // The body of a class
 }
 ```
-The code above defines a class **`User`**. The curly braces **`{ }`** determines the limit of class body. Note that this syntax is named **class declaration**. 
+The code above defines a class **`User`**. The curly braces **`{ }`** determines the limit of class body. Note that this
+ syntax is named **class declaration**. 
 
 You’re not obligated to indicate the class name. By using a class expression you can assign the class to a variable:
 
