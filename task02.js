@@ -23,10 +23,10 @@ this.getStatus=function(){
   var isEligible=this.isEligible();
   var isExperienced=this.isExperienced();
   if(isEligible && isExperienced)
-    { return "Congratulations "+this.name+" your job is assured";
+    { return "Congratulation "+this.name + ", your job is assured";
     } 
   else 
-  {return "Sorry "+this.name+ " we can not assure your job";
+  {return "Sorry "+this.name+ ", we can not assure your job";
   }
   
 }
