@@ -18,7 +18,7 @@ const voting = function(age) {
     this.isEligible = function () {
         if(this.Age>=18)
             return "You are eligible for voting.";
-        else return "Sorry, you are eligible for voting. Come back later."
+        else return "Sorry, you are  eligible for voting. Come back later."
     }
 }
 const candidate1 = new voting("44yrs");
