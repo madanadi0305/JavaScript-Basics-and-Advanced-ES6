@@ -21,7 +21,7 @@ class Square extends Shape{
     sideLength;
     
     constructor(sideLength){
-    //super(name,sides,sideLength);
+    super('square',4,sideLength);
         //super(name,sides,sideLength);
         this.name="square";
         this.sides=4;
