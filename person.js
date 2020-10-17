@@ -1,5 +1,5 @@
 class Person{
-  Name=[firstName,lastName];
+  Name=['firstName','lastName'];
   Age;
   Gender;
   Interests;
