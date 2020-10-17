@@ -20,5 +20,5 @@ return this.Name.firstName+" "+this.Name.lastName+" is "+this.Age+" years old.Th
    return "Hi! I'm "+this.Name.firstName+" "+this.Name.lastName;
  }
 }
-module.exports=Person;
+module.exports={class:Person};
 
