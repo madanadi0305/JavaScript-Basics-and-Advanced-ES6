@@ -13,7 +13,7 @@ this.Interests=interests;
 }
 
  Bio(){
-return this.Name.firstName+" "+this.Name.lastName+" is "+this.Age+" years old.They like "+this.Interests;
+return this.Name[0]+" "+this.Name[1]+" is "+this.Age+" years old.They like "+this.Interests;
 
  }
  Greeting(){
