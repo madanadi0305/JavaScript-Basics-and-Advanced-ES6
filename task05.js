@@ -1,4 +1,4 @@
-import {} from './person.js';
+import{} from './Person';
 var person1=new Person(['John','Snow'],30,'M','Music');
 
 
