@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "task01.js",
+  "type":"module",
   "scripts": {
     "test": "node_modules/.bin/mocha .specs/*.spec.js",
     "test01": "mocha './.specs/task01.spec.js'",
