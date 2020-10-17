@@ -2,7 +2,8 @@
 
 ## Map
 
-A **map** is a collection of elements where each element is stored as a key, value pair. just like an Object. But the main difference is that Map allows keys of any type.
+A **map** is a collection of elements where each element is stored as a key, value pair. just like an Object. 
+But the main difference is that Map allows keys of any type.
 
 A **map** can also use objects as keys.
 
