@@ -9,7 +9,7 @@ for(var i=0;i<arr.length;i++){
     var elem=arr[i];
     //if the key does not exist then add that key
     var armstrongOrNot=isArmstrong(elem);
-    if(pre_map.has(elem)===false){
+    if(pre_map.has(elem)===false ||(!pre_map[elem])){
      if(armstrongOrNot===true){
       pre_map.set(elem,true);  
 
