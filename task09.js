@@ -40,7 +40,7 @@ var rem,r;
 if(number===0||number===1){
     return true;
 }
-while(n!==0){
+while(n1!==0){
     r=n1%10;
    count=count+1;
    n1=n1%10;
