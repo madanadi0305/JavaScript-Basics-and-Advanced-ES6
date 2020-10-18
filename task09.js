@@ -36,12 +36,12 @@ var sum=0;
 var count=0;
 var n=parseInt(number);
 var n1=parseInt(number);
-var rem,r;
+var rem,r1;
 if(number===0||number===1){
     return true;
 }
 while(n1!==0){
-    r=n1%10;
+    r1=n1%10;
    count=count+1;
    n1=n1%10;
 }
