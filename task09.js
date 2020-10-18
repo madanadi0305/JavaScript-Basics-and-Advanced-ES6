@@ -33,14 +33,23 @@ return pre_map;
 
 const isArmstrong=(number)=>{
 var sum=0;
+var count=0;
 var n=parseInt(number);
-var rem;
+var n1=parseInt(number);
+var rem,r;
 if(number===0||number===1){
     return true;
 }
 while(n!==0){
+    r=n1%10;
+   count=count+1;
+   n1=n1%10;
+}
+
+
+while(n!==0){
     rem=n%10;
-   sum=sum+rem*rem*rem;
+   sum=sum+Math.pow(rem,count);
    n=n/10;
 }
 if(sum===number){
