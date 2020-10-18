@@ -35,6 +35,9 @@ const isArmstrong=(number)=>{
 var sum=0;
 var n=parseInt(number);
 var rem;
+if(number===0||number===1){
+    return true;
+}
 while(n!==0){
     rem=n%10;
    sum=sum+rem*rem*rem;
