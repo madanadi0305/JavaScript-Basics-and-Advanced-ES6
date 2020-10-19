@@ -1,5 +1,6 @@
 function task09(pre_map,arr){
 console.log(pre_map);
+console.log(arr);
 /*if(pre_map.size===0){
     return -1;
 }*/
