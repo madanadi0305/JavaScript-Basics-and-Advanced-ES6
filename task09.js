@@ -44,14 +44,14 @@ if(number===0||number===1){
 while(n1!==0){
     r=n1%10;
    count=count+1;
-   n1=n1/10;
+   n1=parseInt(n1/10);
 }
 
 
 while(n!==0){
     rem=n%10;
    sum=sum+Math.pow(rem,count);
-   n=n/10;
+   n=parseInt(n/10);
 }
 if(sum===number){
     return true;
