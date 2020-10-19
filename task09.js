@@ -37,9 +37,9 @@ var count=0;
 var n=parseInt(number);
 var n1=parseInt(number);
 var rem,r;
-/*if(number===0||number===1){
+if(number===0||number===1){
     return true;
-}*/
+}
 while(n1!==0){
     r=n1%10;
    count=count+1;
