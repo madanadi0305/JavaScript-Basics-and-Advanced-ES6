@@ -28,7 +28,7 @@ Bio(){
 class Student extends Person{
 
 constructor(firstName,lastName,age,gender,interests){
-super(name,age,gender,interests);
+super(firstName,lastName,age,gender,interests);
 this.firstName=firstName;
 this.lastName=lastName;
 this.Age=age;
