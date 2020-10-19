@@ -1,15 +1,5 @@
 var Person=require('./person.js');
 class Teacher extends Person{
-Name=['firstName','lastName'];
-Age;
-Gender;
-Interests;
-constructor(){
-    super(name,age,gender,interests);
-}
-}
-
-class Teacher extends Person{
 constructor(firstName,lastName,age,gender,interests,subject){
 super(firstName,lastName,age,gender,interests);
 this.Subject=subject;
