@@ -1,5 +1,5 @@
 function task09(pre_map,arr){
-
+console.log(pre_map);
 /*if(pre_map.size===0){
     return -1;
 }*/
@@ -25,7 +25,7 @@ for(var i=0;i<arr.length;i++){
         pre_map.delete(elem);
     }
 }
-
+console.log(pre_map);
 return pre_map;
 
 }
