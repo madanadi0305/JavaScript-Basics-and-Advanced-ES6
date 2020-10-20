@@ -19,12 +19,12 @@ if(map11.has(key)===true){
   
 else{
  console.log("Not Present");
- str=str+"{";
+ 
   for(var key1 of map11.keys()){
     str=str+key1+":"+map11.get(key1)+"\n";
     
   }
-  str=str+"}";
+  
   console.log(str);
   return str;
   //console.log(str);
