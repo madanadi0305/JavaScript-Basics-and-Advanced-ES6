@@ -23,6 +23,7 @@ else{
     str=str+key1+":"+map11.get(key1)+"\n";
     
   }
+  console.log(str);
   return str;
   //console.log(str);
 }
