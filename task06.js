@@ -46,7 +46,7 @@ Bio(){
 }
 
 Greeting(){
-return "Yo! I'm "+this.Name[0];
+return "Yo! I'm "+this.Name[0]+".";
 
 }
 }
