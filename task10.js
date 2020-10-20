@@ -6,7 +6,7 @@ function task10(arr1,arr2,key){
   map11.set(arr1[i],arr2[i]);
   }
   console.log(map11);
-if(map11.has(key)){
+if(map11.has(key)===true){
   console.log("Present");
   obj.value=map11.get(key);
   map11.delete(key);
