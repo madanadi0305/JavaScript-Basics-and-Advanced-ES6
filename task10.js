@@ -20,7 +20,7 @@ if(map11.has(key)===true){
 else{
   var arr=[];
   for(var key1 of map11.keys()){
-    str=str+key1+" : "+map11.get(key1);
+    str=str+key1+":"+map11.get(key1);
     arr.push(str);
   }
   
