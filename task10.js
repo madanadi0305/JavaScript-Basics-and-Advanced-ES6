@@ -11,7 +11,8 @@ if(map11.has(key)===true){
   obj.value=map11.get(key);
   map11.delete(key);
   obj.size=map11.size;
-  obj.keys=map11.keys();
+  var objKeys=Object.fromEntries(map11);
+  obj.keys=Object.keys(objKeys);
   obj.map=map11;
 
   return obj;
