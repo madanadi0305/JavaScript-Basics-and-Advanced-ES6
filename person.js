@@ -1,11 +1,12 @@
 class Person{
-  Name=['firstName','lastName'];
+ Name=[];
   Age;
   Gender;
   Interests;
 
-constructor(name,age,gender,interests){
-this.Name=name;
+constructor(firstName,lastName,age,gender,interests){
+this.Name.push(firstName);
+this.Name.push(lastName);
 this.Age=age;
 this.Gender=gender;
 this.Interests=interests;
@@ -19,6 +20,8 @@ return this.Name[0]+" "+this.Name[1]+" is "+this.Age+" years old. They like "+th
  Greeting(){
    return "Hi! I'm "+this.Name[0]+" "+this.Name[1]+".";
  }
+
+
+
 }
 module.exports=Person;
-
