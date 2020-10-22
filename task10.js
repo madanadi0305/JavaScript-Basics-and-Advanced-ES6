@@ -18,13 +18,15 @@ if(map11.has(key)===true){
 }
   
 else{
-  var arr=[];
+  let arr=[];
+  console.log("Not Present");
   for(var key1 of map11.keys()){
-    str=str+key1+":"+map11.get(key1);
-    arr.push(str);
+    var str1=key1+":"+map11.get(key1);
+    arr.push(str1);
+    
   }
-  
-  
+  //return str.toString();
+  //console.log(str);
   return arr.join("\n");
   
 }
