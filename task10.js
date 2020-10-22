@@ -7,7 +7,7 @@ function task10(arr1,arr2,key){
   }
   console.log(map11);
 if(map11.has(key)===true){
-  console.log("Present");
+ 
   obj.value=map11.get(key);
   map11.delete(key);
   obj.size=map11.size;
@@ -18,16 +18,15 @@ if(map11.has(key)===true){
 }
   
 else{
- console.log("Not Present");
- 
+  var arr=[];
   for(var key1 of map11.keys()){
-    str=str+key1+":"+map11.get(key1)+"\n";
-    
+    str=str+key1+" : "+map11.get(key1);
+    arr.push(str);
   }
   
-  console.log(str);
-  return str;
-  //console.log(str);
+  
+  return arr.join("\n");
+  
 }
 }
 module.exports=task10;
